@@ -1,0 +1,10 @@
+.env
+*.log
+/logs/
+/cache/
+/uploads/
+/vendor/
+/node_modules/
+.well-known/
+.user.ini
+.DS_Store
