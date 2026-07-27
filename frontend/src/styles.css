@@ -1,0 +1,43 @@
+@import '@ctrl/ngx-emoji-mart/picker';
+
+/* Force hide specific emojis that the user requested to remove */
+ngx-emoji-mart [title*="dotted" i],
+ngx-emoji-mart [title*="Dotted" i],
+ngx-emoji-mart [title*="clouds" i],
+ngx-emoji-mart [title*="Clouds" i],
+ngx-emoji-mart [title*="melting" i],
+ngx-emoji-mart [title*="Melting" i],
+ngx-emoji-mart [aria-label*="dotted" i],
+ngx-emoji-mart [aria-label*="clouds" i],
+ngx-emoji-mart [aria-label*="melting" i] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f0f2f5;
+}
+
+@media print {
+  @page { margin: 0; }
+  /* Blank the main app page — sheet editor uses a popup window for clean printing */
+  body { display: none !important; }
+  }
+

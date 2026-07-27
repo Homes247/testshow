@@ -1,0 +1,2 @@
+STATUS CODE: 401
+RESPONSE: {"detail":"Invalid email or password"}

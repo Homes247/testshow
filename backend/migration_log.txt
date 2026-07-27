@@ -1,0 +1,16 @@
+[OK] 37977045-93a7-447b-9888-3fd8ff4d3146 -> Drive/Doc/101/37977045-93a7-447b-9888-3fd8ff4d3146.json
+[OK] 4e29b336-dbbb-4330-87eb-d77a5505f6fa -> Drive/Sheet/95/4e29b336-dbbb-4330-87eb-d77a5505f6fa.json
+[OK] 938d5351-7531-435a-871b-4f5c4c379926 -> Drive/Sheet/95/938d5351-7531-435a-871b-4f5c4c379926.json
+[OK] c09e8034-64be-4228-a398-528d70615991 -> Drive/Sheet/78/c09e8034-64be-4228-a398-528d70615991.json
+[OK] e1317d39-b56e-48d4-b6ee-96c8de0b32db -> Drive/Doc/95/e1317d39-b56e-48d4-b6ee-96c8de0b32db.json
+[OK] f4f20166-0721-4976-9683-0f544b1ad117 -> Drive/Sheet/95/f4f20166-0721-4976-9683-0f544b1ad117.json
+
+Done. Migrated: 6, Skipped: 0, Failed: 0
+Exception ignored in: <function Connection.__del__ at 0x000001AE5D5684A0>
+Traceback (most recent call last):
+  File "C:\Users\Homes247\Desktop\office-suite\backend\.venv\Lib\site-packages\aiomysql\connection.py", line 1131, in __del__
+  File "C:\Users\Homes247\Desktop\office-suite\backend\.venv\Lib\site-packages\aiomysql\connection.py", line 339, in close
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 109, in close
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 799, in call_soon
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 545, in _check_closed
+RuntimeError: Event loop is closed

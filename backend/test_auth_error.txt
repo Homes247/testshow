@@ -1,0 +1,2 @@
+STATUS: 401
+TEXT: {"detail":"Invalid email or password"}

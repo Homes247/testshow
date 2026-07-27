@@ -1,0 +1,5 @@
+(1, 'admin', 'admin@vsnapmail.co.in', 1)
+(2, 'John Smith', 'john@vsnapmail.co.in', 1)
+(3, 'Priya Sharma', 'priya@vsnapmail.co.in', 1)
+(4, 'Ravi Kumar', 'ravi@vsnapmail.co.in', 1)
+(5, 'Aswin suresh', 'aswin@homes-247.com', 1)
